@@ -11,7 +11,7 @@ const CategoryItem = ({ category }) => {
           backgroundImage: `url(${imageUrl})`
         }} />
       <div className="category-body">
-        <h2>{title}</h2>
+        <h2>{title.charAt(0).toUpperCase() + title.slice(1)}</h2>
         <p>Shop Now</p>
       </div>
     </div>
